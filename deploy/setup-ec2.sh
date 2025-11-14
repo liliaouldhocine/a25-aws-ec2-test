@@ -6,7 +6,7 @@ echo "🚀 Configuration de l'instance EC2 pour Task Manager..."
 sudo apt update && sudo apt upgrade -y
 
 # Installer Node.js 18.x
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # Installer Nginx
