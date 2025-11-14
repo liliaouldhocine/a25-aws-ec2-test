@@ -34,7 +34,7 @@ server {
 
     # Servir le frontend React
     location / {
-        root /home/ubuntu/task-app-aws/client/dist;
+        root /home/ubuntu/a25-aws-ec2-test/client/dist;
         index index.html;
         try_files \$uri \$uri/ /index.html;
     }
