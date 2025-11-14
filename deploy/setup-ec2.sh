@@ -18,7 +18,7 @@ sudo npm install -g pm2
 # Cloner l'application (remplacez par votre repo)
 cd /home/ubuntu
 git clone https://github.com/liliaouldhocine/a25-aws-ec2-test.git
-cd task-app-aws
+cd a25-aws-ec2-test
 
 # Installer les dépendances
 npm run install-all
