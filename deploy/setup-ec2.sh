@@ -17,7 +17,7 @@ sudo npm install -g pm2
 
 # Cloner l'application (remplacez par votre repo)
 cd /home/ubuntu
-git clone https://github.com/votre-repo/task-app-aws.git
+git clone https://github.com/liliaouldhocine/a25-aws-ec2-test.git
 cd task-app-aws
 
 # Installer les dépendances
@@ -71,4 +71,4 @@ pm2 startup
 pm2 save
 
 echo "✅ Installation terminée!"
-echo "🌐 L'application est accessible sur: http://IP_PUBLIQUE_EC2"
+echo "🌐 L'application est accessible sur: http://ec2-16-52-32-133.ca-central-1.compute.amazonaws.com"
